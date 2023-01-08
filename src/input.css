@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.box-style {
+    @apply bg-white rounded-lg border border-[#e0dfdc];
+}
