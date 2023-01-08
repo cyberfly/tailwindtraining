@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="bg-gray-100 min-h-screen">
+      <!-- header -->
+
+      <div class="bg-white">
+        <div class="max-w-screen-lg mx-auto px-4 border-4">Header</div>
+      </div>
+
+      <!-- end header -->
+
+      <!-- content -->
+
+      <div class="max-w-screen-lg px-4 mx-auto flex flex-col md:flex-row">
+        <div class="w-full md:w-72 bg-yellow-200a">
+          Left Sidebar
+
+          <!-- profile box -->
+
+          <div
+            class="bg-white border border-black rounded-xl overflow-hidden mt-10 mb-20"
+          >
+            <!-- box gray -->
+
+            <div class="bg-red-200 h-14 relative">
+              <img
+                class="w-16 h-16 absolute left-0 right-0 mx-auto border top-4 rounded-full bg-white"
+                src="https://avatars.dicebear.com/api/avataaars/aku.svg"
+                alt=""
+              />
+            </div>
+
+            <!-- end box gray -->
+
+            <div class="pt-6 divide-y">
+              <!-- short info -->
+
+              <div class="text-center pb-4">
+                <a class="font-bold hover:underline text-lg" href="#"
+                  >Fathur Rahman</a
+                >
+
+                <p class="font-light text-sm text-gray-500">
+                  Front End Developer
+                </p>
+              </div>
+
+              <!-- end short info -->
+
+              <!-- stats -->
+
+              <div class="py-4">
+                <a
+                  class="hover:bg-gray-100 flex justify-between px-4 py-1 font-semibold text-xs"
+                  href="#"
+                >
+                  <span class="text-gray-600">Who's viewed your profile</span>
+                  <span class="text-purple-700">132</span>
+                </a>
+
+                <a
+                  class="hover:bg-gray-100 flex justify-between px-4 py-1 font-semibold text-xs"
+                  href="#"
+                >
+                  <span class="text-gray-600">Impressions of your post</span>
+                  <span class="text-purple-700">104</span>
+                </a>
+              </div>
+
+              <!-- end stats -->
+
+              <!-- extra -->
+
+              <div>
+                <a
+                  class="px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-gray-600 text-sm"
+                  href="#"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <span>My Items</span>
+                </a>
+              </div>
+
+              <!-- end extra -->
+            </div>
+          </div>
+
+          <!-- end profile box -->
+
+          <!-- second box -->
+          <!-- end second box -->
+        </div>
+
+        <div class="flex-1 bg-gray-300">News Feed</div>
+
+        <div class="hidden md:block w-72 bg-red-200">Right Sidebar</div>
+      </div>
+
+      <!-- end content -->
+    </div>
+  </body>
+</html>
