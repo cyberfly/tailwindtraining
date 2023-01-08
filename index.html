@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="dist/output.css" rel="stylesheet" />
   </head>
   <body>
     <div class="bg-[#f3f2ef] min-h-screen pb-10">
@@ -41,14 +41,14 @@
           <div class="flex">
             <div class="flex border-r">
               <a
-                class="text-gray-800 px-4 py-2 border-b-2 border-gray-800"
+                class="text-gray-800 px-4 py-1 border-b-2 border-gray-800"
                 href="#"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  class="w-6 h-6 mx-auto"
+                  class="w-7 h-7 mx-auto"
                 >
                   <path
                     d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"
@@ -58,18 +58,18 @@
                   />
                 </svg>
 
-                <span class="text-xs font-medium hidden md:inline">Home</span>
+                <div class="text-xs hidden md:block">Home</div>
               </a>
 
               <a
-                class="text-gray-600 hover:text-gray-800 px-4 py-2 border-b-2 border-transparent"
+                class="text-gray-600 hover:text-gray-800 px-4 py-1 border-b-2 border-transparent"
                 href="#"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  class="w-6 h-6 mx-auto"
+                  class="w-7 h-7 mx-auto"
                 >
                   <path
                     fill-rule="evenodd"
@@ -81,11 +81,11 @@
                   />
                 </svg>
 
-                <span class="text-xs font-medium hidden md:inline">Jobs</span>
+                <div class="text-xs hidden md:block">Jobs</div>
               </a>
 
               <a
-                class="text-gray-600 hover:text-gray-800 px-4 py-2 border-b-2 border-transparent"
+                class="text-gray-600 hover:text-gray-800 px-4 py-1 border-b-2 border-transparent"
                 href="#"
               >
                 <div class="relative">
@@ -93,7 +93,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="w-6 h-6 mx-auto"
+                    class="w-7 h-7 mx-auto"
                   >
                     <path
                       fill-rule="evenodd"
@@ -103,27 +103,25 @@
                   </svg>
 
                   <div
-                    class="rounded-full bg-red-600 text-white absolute top-[-5px] right-[-4px] md:right-[16px] text-xs min-w-[1.2rem] text-center"
+                    class="rounded-full bg-red-600 text-white absolute top-[-2px] right-[-4px] md:right-[16px] text-xs min-w-[1.2rem] text-center"
                   >
                     8
                   </div>
                 </div>
 
-                <span class="text-xs font-medium hidden md:inline"
-                  >Notifications</span
-                >
+                <div class="text-xs hidden md:block">Notifications</div>
               </a>
             </div>
 
             <a
-              class="text-gray-600 px-4 py-2 border-b-2 border-transparent"
+              class="text-gray-600 px-4 py-1 border-b-2 border-transparent"
               href="#"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="w-6 h-6 mx-auto"
+                class="w-7 h-7 mx-auto"
               >
                 <path
                   fill-rule="evenodd"
@@ -135,7 +133,7 @@
                 />
               </svg>
 
-              <span class="text-xs font-medium hidden md:inline">Work</span>
+              <div class="text-xs hidden md:block">Work</div>
             </a>
           </div>
 
@@ -156,11 +154,11 @@
           <!-- profile box -->
 
           <div
-            class="bg-white border border-[#e0dfdc] rounded-xl overflow-hidden"
+            class="bg-white border border-[#e0dfdc] rounded-lg overflow-hidden"
           >
             <!-- box gray -->
 
-            <div class="bg-gray-300 h-14 relative">
+            <div class="bg-gray-400 h-14 relative">
               <img
                 class="w-16 h-16 absolute left-0 right-0 mx-auto border top-4 rounded-full bg-white"
                 src="https://avatars.dicebear.com/api/avataaars/aku.svg"
@@ -545,7 +543,38 @@
         <!-- end main content -->
 
         <!-- right sidebar -->
-        <div class="hidden md:block w-72 bg-red-200">Right Sidebar</div>
+        <div class="hidden lg:block w-72">
+          <div class="box-style px-4 py-2">
+            <p class="text-center text-xs text-gray-600">
+              Get the latest jobs and industry news
+            </p>
+
+            <div class="my-4 flex items-center justify-center space-x-4">
+              <img
+                class="h-16 w-16 rounded-full border bg-white"
+                src="https://avatars.dicebear.com/api/avataaars/aku.svg"
+                alt="avatar"
+              />
+              <img
+                class="h-16 w-16 rounded-full border bg-white"
+                src="https://avatars.dicebear.com/api/initials/integra%20solid.svg"
+                alt="avatar"
+              />
+            </div>
+
+            <p class="text-center text-sm text-gray-600">
+              Fathur Rahman, explore relevant opportunities with Integra Solid
+            </p>
+
+            <div class="mt-4 text-center">
+              <button
+                class="rounded-full border border-purple-400 px-4 py-1 font-medium text-purple-700 hover:border-purple-800 hover:bg-purple-100"
+              >
+                Follow
+              </button>
+            </div>
+          </div>
+        </div>
 
         <!-- end right sidebar -->
       </div>
