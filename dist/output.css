@@ -1201,3 +1201,9 @@ video {
     color: rgb(75 85 99 / var(--tw-text-opacity));
   }
 }
+
+@media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+}
